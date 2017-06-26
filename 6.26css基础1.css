@@ -1,0 +1,41 @@
+/*未打开的连接显示为蓝色，且不显示下划线*/
+a:link{
+    color: blue;
+    text-decoration：none;
+}
+
+/*已被打开的链接显示为灰色*/
+a:visited{
+    color: gray;
+    text-decoration：none;
+}
+
+/*列表标记转化为方块*/
+ul li{
+    list-style-type : square
+}
+
+/*设置表格边框宽度为1px，实线，蓝色*/
+table,th,td{
+    /*设置表格边框宽度为1px，实线，蓝色*/
+    border: 1px dashed blue;
+    /*内容字体为红色*/
+    color:red;
+    /*折叠边框*/
+    border-collapse:collapse;
+    /*字体居中*/
+    text-align: center;
+    /*背景色设置*/
+    background-color: aliceblue;
+}
+
+/*行列的尺寸为100px*/
+tr,td{
+    width:100px;
+    height:100px
+}
+
+/*使用轮廓指令设置点状轮廓，宽度5px*/
+#lk{
+    outline:dotted 5px;
+}

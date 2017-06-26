@@ -1,0 +1,53 @@
+/*此为定义h1元素内的颜色为蓝色,字体尺寸为40px*/
+h1{
+    color: blue;
+    font-size: 40px;
+}
+
+/*id选择器控制绿色*/
+#green{
+    color: green
+}
+
+/*派生选择器控制斜体*/
+h1 small{
+    font-style: italic;
+}
+
+
+/*类选择器控制右对齐*/
+.right{
+    text-align:right
+}
+
+/*属性控制器控制中置*/
+[title=center]{
+    text-align: center
+}
+
+
+/*此为定义body元素内未被定义的元素为红色*/
+body{
+    color: red;
+}
+
+
+/*用id选择器控制背景色为黄色*/
+#div{
+    background-color: yellow;
+}
+
+/*用类控制器控制字符右移两个字位*/
+.yi{
+    text-indent: 2em;
+}
+
+/*用继承控制器控制字符间隔*/
+#div{
+    word-spacing: 4em;
+}
+
+#vid{
+    text-transform: capitalize;
+
+}

@@ -1,0 +1,18 @@
+/*虚线轮廓，内边距50，外边距20*/
+#wai{
+    outline:dashed;
+    padding: 50px;
+    margin: 20px;
+}
+/*实线轮廓，内边距50，背景绿色*/
+#zhong{
+    outline: solid;
+    padding: 50px;
+    background-color: green;
+}
+/*点状线轮廓，内边距50，文字居中*/
+#nei{
+    outline: dotted;
+    padding: 50px ;
+    text-align: center;
+}
