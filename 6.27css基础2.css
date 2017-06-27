@@ -1,0 +1,32 @@
+
+h1 {
+    color:blue;
+}
+h2 {
+    color:green;
+}
+
+
+
+.lei1{
+    color: red;
+}
+
+
+#id{
+    font-size: 40px;
+    font-style: italic;
+}
+
+*[size]{
+    text-decoration: overline;
+    font-size: 5px;
+}
+
+p strong{
+    text-decoration:line-through;
+}
+
+*{
+    font-size: 40px;
+}
