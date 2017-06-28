@@ -14,12 +14,8 @@
     position: relative;
     width: 10%;
     float:left;
-
     line-height:30px;
     background-color: burlywood;
-
-    width:6%;
-    float:left;
 }
 
 #zw{
@@ -62,7 +58,7 @@ a:active,a:hover{/*在被点击和指针的时候*/
 
 #heng li{
     display: inline;/*使块变成内联显示，去掉换行符，这样就是横向显示*/
-    padding: 40px;
+    padding: 10px;
     padding-left: 50px;
     padding-right: 70px;
 }
