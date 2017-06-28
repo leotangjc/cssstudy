@@ -1,0 +1,80 @@
+#bt{
+    font-size: 70px;
+    right: 50%;
+    text-align:center;
+}
+
+
+#heng{
+    position: relative;
+    width: 100%;
+    background-color: green;
+}
+
+#shu{
+    position: relative;
+    width: 10%;
+    float:left;
+
+    line-height:30px;
+    background-color: burlywood;
+
+    width:6%;
+    float:left;
+    padding:5px; 
+}
+
+#zw{
+    position: relative;
+    width: 90%;
+    float:left;
+}
+
+#zwq{
+    padding-left: 100px;
+    padding-right:100px;
+}
+
+h3 {
+    text-align: center;
+}
+
+#heng ul{
+    /*list-style-type: none;*/
+    margin: 0px;
+    padding: 0px;
+    right: 20%;
+    margin-left: 20%;
+}
+
+#shu ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+a:link,a:visited{/*在已访问和未访问下*/
+    text-decoration: none;/*不显示下划线*/
+    color: aliceblue;
+    width: 50px;
+    text-align: center;
+}
+
+a:active,a:hover{/*在被点击和指针的时候*/
+    background-color: blue;
+}
+
+#heng li{
+    display: inline;/*使块变成内联显示，去掉换行符，这样就是横向显示*/
+    padding: 40px;
+    padding-left: 50px;
+    padding-right: 70px;
+}
+
+#shu li{
+    display: block;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
