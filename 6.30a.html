@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head><meta charset="utf-8"></head>
+<html>
+<head>
+    <style>
+        div
+        {
+            width:100px;
+            height:100px;
+            background:red;
+            animation:myfirst 5s;/* 变化时间长度 */
+            -moz-animation:myfirst 5s; /* 适配Firefox */
+            -webkit-animation:myfirst 5s; /* 适配Safari and Chrome */
+            -o-animation:myfirst 5s; /* 适配Opera */
+        }
+
+        @keyframes myfirst   /*用于规定动画*/
+        {
+            0%   {background:red;}
+            25%  {background:yellow;}
+            50%  {background:blue;}
+            100% {background:green;}
+        }
+
+        @-moz-keyframes myfirst /* 适配Firefox */
+        {
+            0%   {background:red;}
+            25%  {background:yellow;}
+            50%  {background:blue;}
+            100% {background:green;}
+        }
+
+        @-webkit-keyframes myfirst /* 适配Safari and Chrome */
+        {
+            0%   {background:red;}
+            25%  {background:yellow;}
+            50%  {background:blue;}
+            100% {background:green;}
+        }
+
+        @-o-keyframes myfirst /* 适配Opera */
+        {
+            0%   {background:red;}
+            25%  {background:yellow;}
+            50%  {background:blue;}
+            100% {background:green;}
+        }
+    </style>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>

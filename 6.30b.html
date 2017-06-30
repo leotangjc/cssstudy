@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head><meta charset="utf-8"></head>
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div
+        {
+            width:100px;
+            height:100px;
+            background:red;
+            position:relative;/*绝对定位*/
+            animation:myfirst 5s linear  infinite alternate;
+            /* 适配Firefox: */
+            -moz-animation:myfirst 5s linear  infinite alternate;
+            /* 适配Safari and Chrome: */
+            -webkit-animation:myfirst 5s linear  infinite alternate;
+            /* 适配Opera: */
+            -o-animation:myfirst 5s linear  infinite alternate;/* 动画的名称，完成时间，线性匀速，无限，循环 */
+        }
+
+        @keyframes myfirst
+        {
+            0%   {background:red; left:0px; top:0px;}
+            25%  {background:yellow; left:200px; top:0px;}
+            50%  {background:blue; left:200px; top:200px;}
+            75%  {background:green; left:0px; top:200px;}
+            100% {background:red; left:0px; top:0px;}
+        }
+
+        @-moz-keyframes myfirst /* 适配Firefox */
+        {
+            0%   {background:red; left:0px; top:0px;}
+            25%  {background:yellow; left:200px; top:0px;}
+            50%  {background:blue; left:200px; top:200px;}
+            75%  {background:green; left:0px; top:200px;}
+            100% {background:red; left:0px; top:0px;}
+        }
+
+        @-webkit-keyframes myfirst /* 适配Safari and Chrome */
+        {
+            0%   {background:red; left:0px; top:0px;}
+            25%  {background:yellow; left:200px; top:0px;}
+            50%  {background:blue; left:200px; top:200px;}
+            75%  {background:green; left:0px; top:200px;}
+            100% {background:red; left:0px; top:0px;}
+        }
+
+        @-o-keyframes myfirst /* 适配Opera */
+        {
+            0%   {background:red; left:0px; top:0px;}
+            25%  {background:yellow; left:200px; top:0px;}
+            50%  {background:blue; left:200px; top:200px;}
+            75%  {background:green; left:0px; top:200px;}
+            100% {background:red; left:0px; top:0px;}
+        }
+    </style>
+</head>
+<body>
+
+
+<div></div>
+
+</body>
+</html>
